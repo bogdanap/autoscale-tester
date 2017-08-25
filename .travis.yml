@@ -36,3 +36,5 @@ matrix:
 
 script: ./sleep.sh $SLEEP
 script: travis_debug
+dist: trusty
+sudo: false
