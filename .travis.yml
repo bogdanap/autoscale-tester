@@ -1,4 +1,4 @@
-language: bash
+language: __garnet__
 dist: trusty
 sudo: required
 
