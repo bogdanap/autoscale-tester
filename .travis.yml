@@ -5,4 +5,4 @@ language: ruby
 
 install: skip
 
-script: echo "Hi!"
+script: echo "Hello!"
