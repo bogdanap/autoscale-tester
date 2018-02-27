@@ -1,7 +1,12 @@
 dist: trusty
-sudo: false
+sudo: required
 group: stable
 language: ruby
+
+addons:
+  apt:
+    packages:
+    - time
 
 install: skip
 
