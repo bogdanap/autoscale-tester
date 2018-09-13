@@ -1,11 +1,7 @@
 language: bash
 sudo: required
 
-matrix:
-  include:
-    - env: infra=gce-0
-    - env: infra=gce-1
-
 install: true
-script: echo 'Hi'
-trace: true
+script:
+  - sleep 120
+  - echo 'Hi'
